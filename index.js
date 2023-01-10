@@ -1,23 +1,23 @@
-class Cliente
-{
-    nombreCliente;
-    dniCliente;
-    rutCliente;
-}
+/* Importacion de clases */
 
-class CuentaCorriente
-{
-    numero;
-    saldo;
-    agencia;
-}
+import {Cliente} from "./Cliente.js";
+import {CuentaCorriente} from "./CuentaCorriente.js";
+
+const cliente = new Cliente();
+cliente.nombreCliente = 'Leonardo';
+cliente.dniCliente = '12123214';
+cliente.rutCliente = '23455';
 
 const cliente1 = new Cliente();
-
+//cuentaDeLeonardo.#saldo=10;
 cliente1.nombreCliente = "José";
 cliente1.dniCliente = "13232";
 
 const cuentaCorriente1 = new CuentaCorriente();
+cuentaDeLeonardo.numero = '1';
+cuentaDeLeonardo.agencia = '001';
+cuentaDeLeonardo.cliente = cliente;
+
 
 cuentaCorriente1.numero = "232323";
 cuentaCorriente1.saldo = 5000;

@@ -1,5 +1,6 @@
-class cliente {
+export class Cliente
+{
     nombreCliente;
-    dinCliente;
+    dniCliente;
     rutCliente;
 }
